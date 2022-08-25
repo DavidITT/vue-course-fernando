@@ -54,6 +54,10 @@ console.log(heroes.some( (heroe) => heroe.id === 1))
 //El find retorna el elemento como tal con toda su informacion, si no
 //lo encuentra regresa undefined
 
-//Desestructuracion de arreglo
+//Forma simple
+const heroe = heroes.find( (heroe) => heroe.id === 2)
+console.log(heroe.name)
+
+//Desestructuracion de arreglo (obtiene una propiedad o propiedades en especifico)
 const { name, power } = heroes.find( (heroe) => heroe.id === 2)
 console.log(`Heroe: ${name} \nPoder: ${power}`)
