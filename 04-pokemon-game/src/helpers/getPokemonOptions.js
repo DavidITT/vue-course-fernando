@@ -2,7 +2,7 @@ import pokemonApi from "@/api/pokemonApi";
 
 
 //Se contruye el arreglo con los 650 pokemons disponibles de la api
-const getPokemons = () => {
+export const getPokemons = () => {
     const pokemonsArr = Array.from( Array(650) )
     return pokemonsArr.map(( _ , index) => index + 1)
 }
@@ -16,7 +16,7 @@ const getPokemonsOptions = async () => {
 }
 
 //Api para obtener el nombre y id de los 4 pokemons
-const getPokemonsNames = async ( [a,b,c,d] = [] ) => {
+export const getPokemonsNames = async ( [a,b,c,d] = [] ) => {
 
     //Peticiones simultaneas
     const promisesArr = [

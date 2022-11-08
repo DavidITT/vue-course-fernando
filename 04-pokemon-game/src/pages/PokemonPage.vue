@@ -15,7 +15,7 @@
       <span>Espere ...</span>
     </div>
 
-    <div v-if="answer" class="alert d-flex align-items-center w-100 fixed-top" :class="classMessage" role="alert">
+    <div id="answer" v-if="answer" class="alert d-flex align-items-center w-100 fixed-top" :class="classMessage" role="alert">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-square-fill"
            viewBox="0 0 16 16">
         <path
