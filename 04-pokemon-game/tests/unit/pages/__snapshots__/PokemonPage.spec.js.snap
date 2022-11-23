@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonPage Component Debe de hacer match con el snapshoot 1`] = `
+<div class="d-flex flex-column justify-content-center align-items-center vh-100">
+  <div class="d-flex flex-column">
+    <div class="spinner-border mb-3 text-info" style="width: 6rem; height: 6rem;" role="status"><span class="visually-hidden">Loading...</span></div><span>Espere ...</span>
+  </div>
+  <!--v-if-->
+</div>
+`;
+
+exports[`PokemonPage Component Debe de hacer match con el snapshot cuadno cargan los pokemons 1`] = `
+<div class="d-flex flex-column justify-content-center align-items-center vh-100">
+  <div>
+    <h1 class="mb-5">¿Quien es este pokemon?</h1>
+    <pokemon-picture-stub pokemonid="1" showpokemon="false"></pokemon-picture-stub>
+    <pokemon-options-stub options="[object Object],[object Object],[object Object],[object Object]"></pokemon-options-stub>
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+</div>
+`;
