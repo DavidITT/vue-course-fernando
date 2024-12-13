@@ -17,7 +17,7 @@ export default defineComponent({
 
             const map = new Mapboxgl.Map({
                 container: mapElement.value!, // container ID
-                style: 'mapbox://styles/mapbox/dark-v10', // style URL
+                style: 'mapbox://styles/mapbox/navigation-night-v1', // style URL
                 center: userLocation.value,
                 zoom: 15 // starting zoom
             });
